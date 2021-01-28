@@ -100,6 +100,8 @@ header img {
 }
 
 /* MAIN */
+
+/* SECCIÓN 1 - INTERCAMBIOS*/
 main {
   width: 100%;
   height: auto;
@@ -275,4 +277,102 @@ main {
   font-weight: 400;
   line-height: 1.5rem;
   color: var(--warm-black-1);
+}
+
+/* SECCIÓN 2 - BENEFICIOS*/
+
+.main-product-detail {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 10px;
+  background-color: var(--warm-black);
+}
+
+.product-detail__batata-logo {
+  position: absolute;
+  width: 40px;
+  height: 25px;
+  top: -10px;
+  left: calc(50% - 20px);
+  background-image: url('./assets/icons/papa.svg');
+}
+
+.producto-detail__title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.producto-detail__title h2 {
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
+
+.producto-detail__title p {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
+
+.product-detail__card {
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  height: 150px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: var(--warm-black-1);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product-detail__card .icon {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.product-detail__card .clock {
+  background-image: url('./assets/icons/clock.svg');
+}
+
+.product-detail__card .eye {
+  background-image: url('./assets/icons/eye.svg');
+}
+
+.product-detail__card .dollar-sign {
+  background-image: url('./assets/icons/dollar-sign.svg');
+}
+
+.product-detail__card .tick {
+  background-image: url('./assets/icons/check-circle.svg');
+}
+
+.product-detail__card .product__card-title {
+  margin-bottom: 12px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+
+.product-detail__card .product__card-body {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
 }
