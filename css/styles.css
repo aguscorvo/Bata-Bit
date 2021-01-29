@@ -152,12 +152,22 @@ main {
   color: #757575;
 }
 
+.main-tables-container__slider {
+  display: flex;
+  height: 350px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
 .main-currency-table,
 .main-commission-table {
+  scroll-snap-align: center;
   width: 70%;
-  min-width: 193px;
+  min-width: 360px;
   max-width: 500px;
-  height: 360px;
+  height: 300px;
+  padding: 10px;
   margin: 0 auto;
   font-family: 'Inter', sans-serif;
 }
@@ -183,7 +193,7 @@ main {
   width: 90%;
   min-width: 230px;
   max-width: 300px;
-  height: 250px;
+  height: 200px;
   margin: 0 auto;
 }
 
